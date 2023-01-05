@@ -30,13 +30,6 @@ if (canvas.getContext) {
 const svgns = "http://www.w3.org/2000/svg";
 const svg = document.querySelector("#svg");
 
-const circle = document.createElementNS(svgns, 'circle');
-circle.setAttributeNS(null, 'cx', 80);
-circle.setAttributeNS(null, 'cy', 80);
-circle.setAttributeNS(null, 'r', 100);
-circle.setAttributeNS(null, 'style', 'fill: yellow;');
-svg.append(circle);
-
 const rect = document.createElementNS(svgns, 'rect');
 rect.setAttributeNS(null, 'x', 100);
 rect.setAttributeNS(null, 'y', 300);
